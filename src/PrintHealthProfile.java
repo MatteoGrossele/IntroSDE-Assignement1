@@ -43,10 +43,10 @@ public class PrintHealthProfile {
         return xpath;
     }
 
-    //returns the person in the xml file with the id specified
-    public Node getPersonById(String id) throws XPathExpressionException {
+    //returns the healtprofile of the person in the xml file with the id specified
+    public Node getHealthProfileById(String id) throws XPathExpressionException {
 
-        XPathExpression expr = xpath.compile("//person[@id=" + id + "]");
+        XPathExpression expr = xpath.compile("//person[@id=" + id + "]/healthprofile");
         Node node = (Node) expr.evaluate(doc, XPathConstants.NODE);
         return node;
     }
@@ -68,10 +68,10 @@ public class PrintHealthProfile {
 
 
         //getting all the persons
-        Node person = people.getPersonById(id);
-        System.out.println("Person with id '" + id + "' in the XML file '" + people.fileName + "'");
-        if(person != null)
-            System.out.println(person.getTextContent());
+        Node personProfile = people.getHealthProfileById(id);
+        System.out.println("HealthProfile of the person with id '" + id + "' in the XML file '" + people.fileName + "'");
+        if(personProfile != null)
+            System.out.println(personProfile.getTextContent());
         else
             System.out.println("No person with id '" + id + "' in the XML file '" + people.fileName + "'");
 
