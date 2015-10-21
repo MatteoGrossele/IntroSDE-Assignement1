@@ -1,0 +1,222 @@
+<people>
+    <person id="0001">
+        <firstname>George R. R.</firstname>
+        <lastname>Martin</lastname>
+        <birthdate>1984-09-20T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2014-09-20T18:00:00.000+02:00</lastupdate>
+            <weight>90</weight>
+            <height>1.70</height>
+            <bmi>31.14</bmi>
+        </healthprofile>
+    </person>
+    <person id="0002">
+        <firstname>Lionel A.</firstname>
+        <lastname>Messi</lastname>
+        <birthdate>1987-06-24T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2015-10-14T18:00:00.000+02:00</lastupdate>
+            <weight>67</weight>
+            <height>1.69</height>
+            <bmi>23.5</bmi>
+        </healthprofile>
+    </person>
+    <person id="0003">
+        <firstname>Diego A.</firstname>
+        <lastname>Maradona</lastname>
+        <birthdate>1960-10-30T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>1997-06-20T18:00:00.000+02:00</lastupdate>
+            <weight>67</weight>
+            <height>1.65</height>
+            <bmi>24.6</bmi>
+        </healthprofile>
+    </person>
+    <person id="0004">
+        <firstname>Philipp</firstname>
+        <lastname>Lahm</lastname>
+        <birthdate>1983-11-11T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2015-10-10T18:00:00.000+02:00</lastupdate>
+            <weight>64</weight>
+            <height>1.70</height>
+            <bmi>22.1</bmi>
+        </healthprofile>
+    </person>
+    <person id="0005">
+        <firstname>Matteo</firstname>
+        <lastname>Grossele</lastname>
+        <birthdate>1993-06-24T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2015-10-20T18:00:00.000+02:00</lastupdate>
+            <weight>82</weight>
+            <height>1.95</height>
+            <bmi>21.6</bmi>
+        </healthprofile>
+    </person>
+    <person id="0006">
+        <firstname>David</firstname>
+        <lastname>Beckham</lastname>
+        <birthdate>1975-05-02T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2015-09-20T18:00:00.000+02:00</lastupdate>
+            <weight>75</weight>
+            <height>1.83</height>
+            <bmi>22.4</bmi>
+        </healthprofile>
+    </person>
+    <person id="0007">
+        <firstname>Francesco</firstname>
+        <lastname>Totti</lastname>
+        <birthdate>1976-09-27T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2015-09-20T18:00:00.000+02:00</lastupdate>
+            <weight>82</weight>
+            <height>1.80</height>
+            <bmi>25.3</bmi>
+        </healthprofile>
+    </person>
+    <person id="0008">
+        <firstname>Clarence</firstname>
+        <lastname>Seedorf</lastname>
+        <birthdate>1976-04-01T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2015-09-20T18:00:00.000+02:00</lastupdate>
+            <weight>80</weight>
+            <height>1.77</height>
+            <bmi>25.5</bmi>
+        </healthprofile>
+    </person>
+    <person id="0009">
+        <firstname>Alessandro</firstname>
+        <lastname>Del Piero</lastname>
+        <birthdate>1974-11-09T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2015-09-20T18:00:00.000+02:00</lastupdate>
+            <weight>74</weight>
+            <height>1.74</height>
+            <bmi>24.4</bmi>
+        </healthprofile>
+    </person>
+    <person id="0010">
+        <firstname>Roberto</firstname>
+        <lastname>Baggio</lastname>
+        <birthdate>1967-02-18T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>1988-04-10T18:00:00.000+02:00</lastupdate>
+            <weight>72</weight>
+            <height>1.74</height>
+            <bmi>23.8</bmi>
+        </healthprofile>
+    </person>
+    <person id="0011">
+        <firstname>Gianluigi</firstname>
+        <lastname>Buffon</lastname>
+        <birthdate>1978-01-28T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2015-09-20T18:00:00.000+02:00</lastupdate>
+            <weight>91</weight>
+            <height>1.92</height>
+            <bmi>24.7</bmi>
+        </healthprofile>
+    </person>
+    <person id="0012">
+        <firstname>Andrea</firstname>
+        <lastname>Pirlo</lastname>
+        <birthdate>1979-05-19T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2015-07-20T18:00:00.000+02:00</lastupdate>
+            <weight>68</weight>
+            <height>1.77</height>
+            <bmi>21.7</bmi>
+        </healthprofile>
+    </person>
+    <person id="0013">
+        <firstname>Cristiano</firstname>
+        <lastname>Ronaldo</lastname>
+        <birthdate>1985-02-05T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2015-07-20T18:00:00.000+02:00</lastupdate>
+            <weight>80</weight>
+            <height>1.85</height>
+            <bmi>23.4</bmi>
+        </healthprofile>
+    </person>
+    <person id="0014">
+        <firstname>Antonio</firstname>
+        <lastname>Cassano</lastname>
+        <birthdate>1982-07-12T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2015-10-20T18:00:00.000+02:00</lastupdate>
+            <weight>80</weight>
+            <height>1.75</height>
+            <bmi>26.1</bmi>
+        </healthprofile>
+    </person>
+    <person id="0015">
+        <firstname>Fabio</firstname>
+        <lastname>Cannavaro</lastname>
+        <birthdate>1973-09-13T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2015-07-20T18:00:00.000+02:00</lastupdate>
+            <weight>74</weight>
+            <height>1.75</height>
+            <bmi>24.2</bmi>
+        </healthprofile>
+    </person>
+    <person id="0016">
+        <firstname>Michael</firstname>
+        <lastname>Jordan</lastname>
+        <birthdate>1963-02-17T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2015-07-20T18:00:00.000+02:00</lastupdate>
+            <weight>98</weight>
+            <height>1.98</height>
+            <bmi>25.0</bmi>
+        </healthprofile>
+    </person>
+    <person id="0017">
+        <firstname>LeBron</firstname>
+        <lastname>James</lastname>
+        <birthdate>1984-12-30T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2015-10-20T18:00:00.000+02:00</lastupdate>
+            <weight>113</weight>
+            <height>2.03</height>
+            <bmi>27.4</bmi>
+        </healthprofile>
+    </person>
+    <person id="0018">
+        <firstname>Mike</firstname>
+        <lastname>Tyson</lastname>
+        <birthdate>1966-06-30T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2015-10-20T18:00:00.000+02:00</lastupdate>
+            <weight>103</weight>
+            <height>1.78</height>
+            <bmi>32.5</bmi>
+        </healthprofile>
+    </person>
+    <person id="0019">
+        <firstname>Jury</firstname>
+        <lastname>Chechi</lastname>
+        <birthdate>1969-10-11T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2015-10-20T18:00:00.000+02:00</lastupdate>
+            <weight>60</weight>
+            <height>1.66</height>
+            <bmi>21.8</bmi>
+        </healthprofile>
+    </person>
+    <person id="0020">
+        <firstname>Rafael</firstname>
+        <lastname>Nadal</lastname>
+        <birthdate>1986-06-03T18:00:00.000+02:00</birthdate>
+        <healthprofile>
+            <lastupdate>2015-10-20T18:00:00.000+02:00</lastupdate>
+            <weight>85</weight>
+            <height>1.85</height>
+            <bmi>24.8</bmi>
+        </healthprofile>
+    </person>
+</people>
