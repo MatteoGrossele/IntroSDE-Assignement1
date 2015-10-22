@@ -5,23 +5,23 @@ First assignement for the course IntroSDE 2015
 
 ##Problems Solved
 The assignement had different task to complete :
-* **Extend the xml example to include 20 people ** the result is the file **HealthProfile.xml**, it contains data of different athletes, footballers and myself. All the data were collected on Wikipedia.
+* "Extend the xml example to include 20 people" the result is the file **HealthProfile.xml**, it contains data of different athletes, footballers and myself. All the data were collected on Wikipedia.
 
-* **Use xpath to implement methods like getWeight and getHeight of a given person** is resolved by the file **GetHeightAndWeight.java**, it prints weight and height of the person with the specified id in the specified xml file. This parameters can be specified by command line on the execution otherwise the program takes some default values(the one required from the task).
+* "Use xpath to implement methods like getWeight and getHeight of a given person" is resolved by the file **GetHeightAndWeight.java**, it prints weight and height of the person with the specified id in the specified xml file. This parameters can be specified by command line on the execution otherwise the program takes some default values(the one required from the task).
 
-* **Make a function that prints all people in the list with detail** is resolved by the file **PrintPeople.java**, it prints all the person in the specified xml file. 
+* "Make a function that prints all people in the list with detail" is resolved by the file **PrintPeople.java**, it prints all the person in the specified xml file. 
 
-* **A function that accepts id as parameter and prints the HealthProfile of the person with that id** is resolved by the file **PrintHealthProfile.java**, it prints the healthprofile of the person with the correct id in the specified xml file.
+* "A function that accepts id as parameter and prints the HealthProfile of the person with that id" is resolved by the file **PrintHealthProfile.java**, it prints the healthprofile of the person with the correct id in the specified xml file.
 
-* **A function which accepts a weight and an operator (=, > , <) as parameters and prints people that fulfill that condition** is resolved by the file **PrintWeightConditional.java**, it prints the persons on the xml file that satisfies the condition.
+* "A function which accepts a weight and an operator (=, > , <) as parameters and prints people that fulfill that condition" is resolved by the file **PrintWeightConditional.java**, it prints the persons on the xml file that satisfies the condition.
 
-* **Create the XML schema XSD file for the XML document of people.**the result is the file **HealthProfile.xsd**, it contains the XML Schema of the document used in the assignement.
+* "Create the XML schema XSD file for the XML document of people." the result is the file **HealthProfile.xsd**, it contains the XML Schema of the document used in the assignement.
 
-* **Write a java application that does the marshalling to XML using classes generated with JAXB XJC**is resolved by the file ** is resolved by the file **HealthProfileWriter.java**
+* "Write a java application that does the marshalling to XML using classes generated with JAXB XJC" is resolved by the file ** is resolved by the file **HealthProfileWriter.java**
 
-* **Write a java application that does the unmarshalling from XML using classes generated with JAXB XJC**is resolved by the file ** is resolved by the file **HealthProfileReader.java**
+* "Write a java application that does the unmarshalling from XML using classes generated with JAXB XJC" is resolved by the file ** is resolved by the file **HealthProfileReader.java**
 
-* **Write a java application that does the marshalling  to JSON**is resolved by the file ** is resolved by the file **HealthProfileJson.java**
+* "Write a java application that does the marshalling  to JSON" is resolved by the file ** is resolved by the file **HealthProfileJson.java**
 
 
 ##Execution
