@@ -116,7 +116,7 @@
 		</copy>
 	</target>
 
-	<target name="execute.evaluation">
+	<target name="execute.evaluation" depends="compile">
 		<echo message="Executing Assignement 01 for IntroSDE2015" />
 		<echo message="1)Print all people in the list with detail" />
 		<java classname="PrintPeople" classpath="${build.dir}">
