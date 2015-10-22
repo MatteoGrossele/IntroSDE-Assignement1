@@ -75,17 +75,28 @@ public class GetHeightAndWeight {
 
 
         Node weight = people.getWeight(id);
-        System.out.println("Weight of the person with id '" + id + "' in the XML file '" + people.fileName + "'");
+         //Control to check if the person with id specified exist
+        if(weight != null) {
+            System.out.println("Weight of the person with id '" + id + "' in the XML file '" + people.fileName + "'");
+            System.out.println(weight.getTextContent());
+        }
+        else
+            System.out.println("No person with id '" + id + "' in the XML file '" + people.fileName + "'");
 
-        System.out.println(weight.getTextContent());
+       
 
         System.out.println();
 
 
         Node height = people.getHeight(id);
-        System.out.println("Height of the person with id '" + id + "' in the XML file '" + people.fileName + "'");
+        if(height != null) {
+            System.out.println("Height of the person with id '" + id + "' in the XML file '" + people.fileName + "'");
+             System.out.println(height.getTextContent());
+        }
+        else
+            System.out.println("No person with id '" + id + "' in the XML file '" + people.fileName + "'");
 
-        System.out.println(height.getTextContent());
+        System.out.println();
 
     }
 }

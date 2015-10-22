@@ -11,7 +11,7 @@
             <xsd:element name="firstname" type="xsd:string"/>
             <xsd:element name="lastname"  type="xsd:string"/>
             <xsd:element name="birthdate" type="xsd:dateTime"/>
-            <xsd:element name="healthprofile" type="healthProfileType" minOccurs="0" maxOccurs="1"/>
+            <xsd:element name="healthprofile" type="healthProfileType"/>
         </xsd:sequence>
 		<xsd:attribute name="id" type="xsd:integer"/>
     </xsd:complexType>

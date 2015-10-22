@@ -69,9 +69,12 @@ public class PrintHealthProfile {
 
         //getting all the persons
         Node personProfile = people.getHealthProfileById(id);
-        System.out.println("HealthProfile of the person with id '" + id + "' in the XML file '" + people.fileName + "'");
-        if(personProfile != null)
+
+        //Control to check if the person with id specified exist
+        if(personProfile != null) {
+            System.out.println("HealthProfile of the person with id '" + id + "' in the XML file '" + people.fileName + "'");
             System.out.println(personProfile.getTextContent());
+        }
         else
             System.out.println("No person with id '" + id + "' in the XML file '" + people.fileName + "'");
 
