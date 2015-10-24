@@ -12,19 +12,19 @@ The assignement had different task to complete :
 
 * "Use xpath to implement methods like getWeight and getHeight of a given person" is resolved by the file **GetHeightAndWeight.java**, it prints weight and height of the person with the specified id in the specified xml file, searched with XPath. This parameters can be specified by command line on the execution otherwise the program takes some default values(the one required from the task).
 
-* "Make a function that prints all people in the list with detail" is resolved by the file **PrintPeople.java**, it prints all the person in the specified xml file. To resolve this problem I looked for all the person in the XML with XPath and then i printed the results with the function ```getTextContent()``` showd in the lab lessons.
+* "Make a function that prints all people in the list with detail" is resolved by the file **PrintPeople.java**, it prints all the person in the specified xml file. To resolve this problem I looked for all the person in the XML with XPath and then I printed the results with the function ```getTextContent()``` shown in the lab lessons.
 
-* "A function that accepts id as parameter and prints the HealthProfile of the person with that id" is resolved by the file **PrintHealthProfile.java**, it prints the healthprofile of the person with the correct id in the specified xml file. Also in this case i look for the correct healtprofile with an XPath expression filtering the person with the id.
+* "A function that accepts id as parameter and prints the HealthProfile of the person with that id" is resolved by the file **PrintHealthProfile.java**, it prints the healthprofile of the person with the correct id in the specified xml file. Also in this case I look for the correct healtprofile with an XPath expression filtering the person with the id.
 
 * "A function which accepts a weight and an operator (=, > , <) as parameters and prints people that fulfill that condition" is resolved by the file **PrintWeightConditional.java**, it prints the persons on the xml file that satisfies the condition.
 
 * "Create the XML schema XSD file for the XML document of people." the result is the file **HealthProfile.xsd**, it contains the XML Schema of the document used in the assignement.
 
-* "Write a java application that does the marshalling to XML using classes generated with JAXB XJC" is resolved by the file **HealthProfileWriter.java**. To complete this task I took the example in the lab4 and I modified the model to comply with the new XML data, then I modified the function ```initializeDB()``` to create 3 new data to marshall with the correct format.
+* "Write a java application that does the marshalling to XML using classes generated with JAXB XJC" is resolved by the file **HealthProfileWriter.java**. To complete this task I took the example in the lab4 and I modified the model to comply with the new XML data, then I modified the function ```initializeDB()``` to create 3 new data to marshall with the correct format. The program will create a new XML file called 'people.xml'.
 
-* "Write a java application that does the unmarshalling from XML using classes generated with JAXB XJC" is resolved by the file **HealthProfileReader.java**, which is a modified example of the lab4 marshaller, only with a more complete output on console.
+* "Write a java application that does the unmarshalling from XML using classes generated with JAXB XJC" is resolved by the file **HealthProfileReader.java**, which is a modified example of the lab4 marshaller, only with a more complete output on console. The program will read an XML file called 'people.xml'.
 
-* "Write a java application that does the marshalling  to JSON" is resolved by the file **HealthProfileJson.java**. This task was the same of the marshalling to XML, i just had to apply the same modification done to the XML marshaller to the JSON one.
+* "Write a java application that does the marshalling  to JSON" is resolved by the file **HealthProfileJson.java**. This task was the same of the marshalling to XML, I just had to apply the same modification done to the XML marshaller to the JSON one. The program will create a new JSON file called 'people.json'.
 
 
 ##Execution
@@ -33,6 +33,6 @@ To execute the code, please run in your terminal:
     	ant execute.evaluation
     ```.
 
-This was a requirement of the assignement, so i choosed to make the execute.evaluation depend to the download of ivy, dependencies and compiling of the code; allowing to simply type the command in a terminal to make it work.
+This was a requirement of the assignement, so I choosed to make the execute.evaluation depend to the download of ivy, dependencies and compiling of the code; allowing to simply type the command in a terminal to make it work.
 
 It assumes Java and Apache Ant are already installed and working on the machine.
