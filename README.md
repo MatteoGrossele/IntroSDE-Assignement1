@@ -22,7 +22,7 @@ The assignement had different task to complete :
 
 * "Write a java application that does the marshalling to XML using classes generated with JAXB XJC" is resolved by the file **HealthProfileWriter.java**. To complete this task I took the example in the lab4 and I modified the model to comply with the new XML data, then I modified the function ```initializeDB()``` to create 3 new data to marshall with the correct format. The program will create a new XML file called 'people.xml'.
 
-* "Write a java application that does the unmarshalling from XML using classes generated with JAXB XJC" is resolved by the file **HealthProfileReader.java**, which is a modified example of the lab4 marshaller, only with a more complete output on console. The program will read an XML file called 'people.xml'.
+* "Write a java application that does the unmarshalling from XML using classes generated with JAXB XJC" is resolved by the file **HealthProfileReader.java**, which is a modified example of the lab4 unmarshaller, only with a more complete output on console. The program will read an XML file called 'people.xml'.
 
 * "Write a java application that does the marshalling  to JSON" is resolved by the file **HealthProfileJson.java**. This task was the same of the marshalling to XML, I just had to apply the same modification done to the XML marshaller to the JSON one. The program will create a new JSON file called 'people.json'.
 
