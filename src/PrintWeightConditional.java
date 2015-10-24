@@ -73,7 +73,7 @@ public class PrintWeightConditional {
 
         //getting all the persons
         NodeList persons = people.getPersonsByComparingWieght(weight,compare);
-        System.out.println("Persons with weight " + compare + ((compare == "=")?" to ":" than ") + weight + " in the XML file '" + people.fileName + "'");
+        System.out.println("Persons with weight " + compare + (compare.equals("=")?" to ":" than ") + weight + " in the XML file '" + people.fileName + "'");
 
         for (int i = 0; i < persons.getLength(); i++) {
             System.out.println((i + 1) + ") " + persons.item(i).getTextContent());
