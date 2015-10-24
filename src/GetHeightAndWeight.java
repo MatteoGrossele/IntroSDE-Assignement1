@@ -73,6 +73,8 @@ public class GetHeightAndWeight {
         if(args.length > 1)
             people.fileName = args[1];
 
+        people.loadXML();
+
 
         Node weight = people.getWeight(id);
          //Control to check if the person with id specified exist
