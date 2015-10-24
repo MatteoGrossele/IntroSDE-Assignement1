@@ -25,8 +25,8 @@ public class HealthProfileReader {
         PeopleStore people = (PeopleStore) um.unmarshal(new FileReader(fileName));
         List<Person> list = people.getData();
         for (Person person : list) {
-          System.out.println("Person: " + person.getFirstname() + " born "
-              + person.getBirthdate());
+          System.out.println("Person: " + person.getFirstname() + "  " + person.getLastname() + " born "
+              + person.getBirthdate() + " : HealthProfile -> weight " + person.getHProfile().getWeight() + " , height " + person.getHProfile().getHeight());
         }
 
     }
